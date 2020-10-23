@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to integrate HTML / Bootstrap template into Rails 6
+disqus_id: ghost-5f8c164a593392433887335e
 ---
 
 Say you just bought a Bootstrap template (or any HTML template) and want to integrate it to Rails 6, where do you start? 🤔

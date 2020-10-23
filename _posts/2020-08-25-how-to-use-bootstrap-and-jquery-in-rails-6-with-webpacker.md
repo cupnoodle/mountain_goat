@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to use Bootstrap, jQuery and other libraries in Rails 6 with Webpacker
+disqus_id: ghost-5f440ebc59339243388731ce
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Solve race condition using database trigger function
+disqus_id: ghost-5f71aa3b59339243388732b6
 ---
 
 For this article, we will be using two ActiveRecord models like this : 

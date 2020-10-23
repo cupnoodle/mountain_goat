@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Automate Rails server provisioning and deployment using Ansible and Capistrano
+disqus_id: ghost-5f5de0b4593392433887320c
 ---
 
 One of the hardest thing while learning Rails is to put your Rails application online on the internet so the public can access it. Many tutorials usually recommends Heroku as it is really simple to use, but the downside is that it can get expensive pretty fast, and their free plan has limitation that cold starts your dyno on inactivity and 10k rows limit for database (to force you to buy their paid plan, they need to pay server bills too).
