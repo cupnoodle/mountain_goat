@@ -22,4 +22,6 @@ exclude:
   - src
   - tailwind.config.js
   - netlify.toml
+  
+include:
   - _redirects
