@@ -90,7 +90,7 @@
   }
 
   #post-content a {
-    @apply text-orange-500 underline;
+    @apply text-orange-600 underline;
   }
 
   #post-content a:hover {
@@ -114,7 +114,19 @@
   }
 
   #post-content form h1 {
-    @apply text-3xl my-1;
+    @apply text-2xl my-1;
+  }
+
+  #post-content form p {
+    @apply text-base my-1;
+  }
+
+  #post-content img {
+    @apply my-0;
+  }
+
+  #post-content .formkit-guarantee p {
+    @apply text-sm;
   }
 }
 
@@ -183,6 +195,29 @@
 .highlight .vg { color: #cc6666 } /* Name.Variable.Global */
 .highlight .vi { color: #cc6666 } /* Name.Variable.Instance */
 .highlight .il { color: #de935f } /* Literal.Number.Integer.Long */
+
+blockquote {
+  background: #f3f3f3;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  font-style: italic;
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
 
 /* purgecss end ignore */
 @tailwind utilities;
