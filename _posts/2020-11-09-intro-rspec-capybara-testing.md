@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction to Rails testing with Rspec and Capybara
+title: Introduction to Rails testing with RSpec and Capybara
 ---
 
 Testing is heavily emphasized in the Ruby and Rails community, even the official Ruby on Rails guide [has a section dedicated to testing](https://guides.rubyonrails.org/testing.html). A lot of Rails job postings usually requires testing skill (Rspec, Minitest etc) as well : 
