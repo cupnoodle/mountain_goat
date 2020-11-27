@@ -76,9 +76,10 @@ This is great to get a quick demo on Tailwind CSS, but the downside (as mentione
 I prefer using yarn to install Tailwind CSS, open up terminal, navigate to your Rails app , then execute: 
 
 ```bash
-yarn add tailwindcss
+yarn add tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
 ```
 
+Here we are using a PostCSS7 compability build of Tailwind, because PostCSS 8 seems currently having issue with Rails 6 webpacker.
 
 
 I recommend using Webpacker for managing Tailwind CSS as this will make it easier to manage and we can configure PostCSS setting (like PurgeCSS) later.
