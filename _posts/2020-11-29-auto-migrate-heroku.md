@@ -56,9 +56,15 @@ web: bundle exec puma -t 5:5 -p ${PORT:-3000} -e ${RACK_ENV:-development}
 
 In the above **Procfile** , the "rake db:migrate" command will be run during release phase.
 
+If you want to run multiple rake commands in the release phase, you can put them together like this :
 
+```yml
+release: rake db:migrate other:thing whatever
+web: bundle exec puma -t 5:5 -p ${PORT:-3000} -e ${RACK_ENV:-development}
+```
+(thanks for the tip [Jonathan](https://bibwild.wordpress.com/about/)!)
 
-If you want to run multiple commands in the release phase, you can put the commands into a single bash file (eg: release-tasks.sh, located at the root of your repository), then execute the bash file in the release phase like this : 
+Alternatively, you can put the commands into a single bash file (eg: release-tasks.sh, located at the root of your repository), then execute the bash file in the release phase like this : 
 
 ```yml
 release: ./release-tasks.sh
