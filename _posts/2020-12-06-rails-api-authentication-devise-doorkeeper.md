@@ -864,5 +864,6 @@ Doorkeeper::AccessToken.revoke_all_for(client_app.id , user)
 [Doorkeeper wiki - Using Resource Owner Password Credentials flow](https://github.com/doorkeeper-gem/doorkeeper/wiki/Using-Resource-Owner-Password-Credentials-flow)
 
 
+<script async data-uid="d862c2871b" src="https://rubyyagi.ck.page/d862c2871b/index.js"></script>
 
 
