@@ -3,6 +3,8 @@ layout: post
 title: Getting started with Tailwind CSS on Rails 6
 ---
 
+Note: Please refer [this post for TailwindCSS v2+ installation](https://rubyyagi.com/tailwindcss2-rails6/)
+
 If you haven't heard of Tailwind CSS yet, it is a CSS framework filled with a lot of preset CSS classes, which you can apply to your HTML elements, without the need to write custom CSS for them most of the time!
 
 
