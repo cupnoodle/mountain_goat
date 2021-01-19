@@ -112,6 +112,13 @@ After installing these gems, we still need to install Rspec into our app using
 
 This will create a few boilerplate files, and update some configuration in our Rails app.
 
+Remember to require the webdrivers gem at the top of **spec/rails_helper.rb** :
+```ruby
+# spec/rails_helper.rb
+# This file is copied to spec/ when you run 'rails generate rspec:install'
+require 'spec_helper'
+require 'webdrivers'
+```
 
 
 ## Create a static controller displaying static content
