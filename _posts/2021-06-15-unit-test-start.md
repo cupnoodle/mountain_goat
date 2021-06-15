@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting started with testing mindset and CI on Ruby
+title: Getting started with automated testing workflow and CI on Ruby
 date: 2021-06-15 19:06 +0800
 ---
 
