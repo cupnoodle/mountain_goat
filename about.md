@@ -12,3 +12,5 @@ I hope to share my web development experience on this blog, and hope it can help
 My twitter username is [@soulchildpls](https://twitter.com/soulchildpls) , feel free to drop me a message!
 
 My email address is axel@rubyyagi.com .
+
+I also write about Shopify store customization at [Yagi Software](https://yagisoftware.com).
